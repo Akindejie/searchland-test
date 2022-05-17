@@ -1,6 +1,4 @@
-import React from 'react';
 import './App.css';
-import CustomLayerCard from './stories/CustomLayerCard';
 
 function App() {
   return (
