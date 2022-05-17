@@ -1,4 +1,6 @@
 import React, { FC, useState } from 'react';
+
+//** Material UI imports */
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -47,6 +49,7 @@ const CustomLayerCard: FC<CardMediaTypes> = ({
 
 export default CustomLayerCard;
 
+//** Styled component was used due to what you wrote in the job description, I also prefer it to emotion */
 const CustomCard = styled(Card)`
   max-width: 229px;
   max-max-height: 150px;
@@ -55,7 +58,7 @@ const CustomCard = styled(Card)`
 
   &:hover {
     border: 1px solid #65e9d9;
-    transform: translate(0%, 2%);
+    transform: translate(0%, 2%); // Decided to add little animation
     transition: 0.3s ease-out;
   }
 `;
