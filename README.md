@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+#Searchland test assignment.
 
 This project is a test-project
 
